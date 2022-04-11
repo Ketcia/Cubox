@@ -5,11 +5,15 @@ import styles from "./styles"
 
 export default function Button({ onPress, type, title, ...rest }: ButtonProps) {
   return (
-    <TouchableOpacity style={type=="green" 
-        ? styles.buttonGreen 
-        : type == 'orange' 
-        ? styles.buttonOrange 
-        : styles.buttonPurple 
+    <TouchableOpacity style={type=="cinza" 
+        ? styles.buttonCinza 
+        : type == 'verde' 
+        ? styles.buttonVerde 
+        : type == 'vermelho' 
+        ? styles.buttonVermelho 
+        : type == 'amarelo' 
+        ? styles.buttonAmarelo
+        : styles.buttonAzul
     } onPress={onPress} {...rest}>
         
       <Text>{title}</Text>

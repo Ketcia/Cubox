@@ -3,19 +3,34 @@ import colors from "../../styles/colors"
 
 
 const styles = StyleSheet.create({
-    buttonGreen:{
-        backgroundColor: colors.green,
+    buttonCinza:{
+        backgroundColor: colors.cinza,
         borderRadius:5,
+        padding:8,
+        margin:10,
+    },
+    buttonVerde:{
+        backgroundColor: colors.verde,
+        borderRadius:5,
+        padding:8,
         margin:10
     },
-    buttonOrange:{
-        backgroundColor: colors.orange,
+    buttonVermelho:{
+        backgroundColor: colors.vermelho,
         borderRadius:5,
+        padding:8,
         margin:10
     },
-    buttonPurple:{
-        backgroundColor: colors.purple,
+    buttonAzul:{
+        backgroundColor: colors.azul,
         borderRadius:5,
+        padding:8,
+        margin:10
+    },
+    buttonAmarelo:{
+        backgroundColor: colors.amarelo,
+        borderRadius:5,
+        padding:8,
         margin:10
     },
     text:{
