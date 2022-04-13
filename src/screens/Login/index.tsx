@@ -20,30 +20,6 @@ export default function Login({ navigation }: LoginTypes) {
   }
 
   return (
-<<<<<<< HEAD
-    <View>
-      <KeyboardAvoidingView>
-        <Text>Login</Text>
-        <View>
-          <MaterialIcons name="email" size={24} color="black" />
-          <TextInput
-            placeholder="Email"
-            keyboardType="email-address"
-            autoCapitalize="none"
-          />
-        </View>
-        <View>
-          <Entypo name="key" size={24} color="black" />
-          <TextInput
-            placeholder="Senha"
-            secureTextEntry={true}
-            autoCapitalize="none"
-          />
-        </View>
-        <Button title="Login" type="azul" onPress={handleSignIn} />
-        <Button title="Cadastre-se" type="azul" onPress={handleSignIn} />
-      </KeyboardAvoidingView>
-=======
     <View style={styles.container}>
 
         <KeyboardAvoidingView>
@@ -69,7 +45,7 @@ export default function Login({ navigation }: LoginTypes) {
           <Button title="Login" type="cinza" onPress={handleSignIn} />
           <Button title="Cadastre-se" type="cinza" onPress={handleCadastrar} />
         </KeyboardAvoidingView>
->>>>>>> f0f1c1c65b76f452fb3c4cfc8f56f94ebab36b94
+
     </View>
   );
 }

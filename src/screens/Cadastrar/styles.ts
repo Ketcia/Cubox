@@ -20,18 +20,17 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     borderRadius: 5,
-    color:colors.branco
+    backgroundColor: colors.branco
   },
   label: {
     fontSize: 18,
-    color: colors.black,
+    color: colors.brancoEscuro,
     padding: 5
   },
   input: {
     fontSize: 18,
     padding: 5,
-    width: "80%",
-    
+    width: "80%"
   },
   icon: {
     fontSize: 24,

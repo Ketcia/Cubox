@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { LoginScreen, CadastrarScreen } from "../screens";
-import { LoginStackParamList } from "../types/Screen.types";
+import { LoginStackParamList } from "../types/screen.type";
 
 const Stack = createStackNavigator<LoginStackParamList>();
 
