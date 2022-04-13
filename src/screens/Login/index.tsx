@@ -28,8 +28,8 @@ export default function Login() {
             autoCapitalize="none"
           />
         </View>
-        <Button title="Login" type="cinza" onPress={handleSignIn} />
-        <Button title="Cadastre-se" type="cinza" onPress={handleSignIn} />
+        <Button title="Login" type="azul" onPress={handleSignIn} />
+        <Button title="Cadastre-se" type="azul" onPress={handleSignIn} />
       </KeyboardAvoidingView>
     </View>
   );
