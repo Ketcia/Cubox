@@ -7,10 +7,8 @@ const styles = StyleSheet.create({
     buttonCinza:{
         backgroundColor: colors.cinza,
         borderRadius:5,
-        fontSize: 18,
         padding: 5,
         margin:10,
-        
     },
     buttonVerde:{
         backgroundColor: colors.verde,
@@ -28,13 +26,7 @@ const styles = StyleSheet.create({
         backgroundColor: colors.azul,
         borderRadius:5,
         margin:10,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 1 },
-        shadowOpacity: 0.8,
-        shadowRadius: 1,  
-            
-
-        
+ 
     },
     buttonAmarelo:{
         backgroundColor: colors.amarelo,
@@ -42,13 +34,7 @@ const styles = StyleSheet.create({
         padding:8,
         margin:10
     },
-    text:{
-        color: "white",
-        fontWeight: "bold",
-        textAlign: "center",
-        padding:10,
-        fontSize:18
-    }
+ 
 })
 
 export default styles

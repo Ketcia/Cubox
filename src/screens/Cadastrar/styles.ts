@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
-    color: colors.branco,
+    color: "#fff",
     marginBottom: 20,
   },
   formRow: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     borderRadius: 5,
-    backgroundColor: colors.branco
+    backgroundColor: "#fff"
   },
   label: {
     fontSize: 18,
