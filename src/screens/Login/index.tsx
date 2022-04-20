@@ -11,6 +11,7 @@ import Button from "../../components/Button";
 import styles from "./styles";
 import { LoginTypes } from "../../types/Screen.types";
 
+
 export default function Login({ navigation }: LoginTypes) {
   async function handleSignIn() {
     console.log("Login");
@@ -33,7 +34,7 @@ export default function Login({ navigation }: LoginTypes) {
               autoCapitalize="none"
             />
           </View>
-          <View style={styles.formRow}>
+          <View style={[styles.formRow,styles.shadowProp]}>
             <Entypo name="key" style={styles.icon} />
             <TextInput
               style={styles.input}

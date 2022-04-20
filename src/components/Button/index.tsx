@@ -16,7 +16,7 @@ export default function Button({ onPress, type, title, ...rest }: ButtonProps) {
         : styles.buttonAzul
     } onPress={onPress} {...rest}>
         
-      <Text>{title}</Text>
+      <Text style={styles.text}>{title}</Text>
     </TouchableOpacity>
   );
 }

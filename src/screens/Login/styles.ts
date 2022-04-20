@@ -21,7 +21,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 5,
     backgroundColor: "#FFF",
-    elevation: 5
   },
   label: {
     fontSize: 18,
@@ -37,6 +36,12 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: colors.brancoEscuro,
     padding: 10
+  },
+  shadowProp: {
+    shadowColor: '#fff',
+    shadowOffset: {width: -2, height: 4},
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
   }
 })
 

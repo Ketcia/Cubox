@@ -1,5 +1,4 @@
 import {StyleSheet} from "react-native"
-import DropShadow from "react-native-drop-shadow"
 import colors from "../../styles/colors"
 
 
@@ -7,7 +6,6 @@ const styles = StyleSheet.create({
     buttonCinza:{
         backgroundColor: colors.cinza,
         borderRadius:5,
-        padding: 5,
         margin:10,
     },
     buttonVerde:{
@@ -34,7 +32,13 @@ const styles = StyleSheet.create({
         padding:8,
         margin:10
     },
- 
+    text: {
+        color: colors.white,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        padding: 10,
+        fontSize: 18
+      }
 })
 
 export default styles
