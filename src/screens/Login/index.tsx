@@ -14,7 +14,7 @@ import { LoginTypes } from "../../types/Screen.types";
 
 export default function Login({ navigation }: LoginTypes) {
   async function handleSignIn() {
-    console.log("Login");
+    navigation.navigate("Cronometro");
   }
   function handleCadastrar() {
     navigation.navigate("Cadastrar");
