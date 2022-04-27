@@ -26,14 +26,15 @@ export default function Login({ navigation }: LoginTypes) {
             <Text>CRONOMETRO</Text>
         </View>
         <View style={styles.fundo}>
-            <View>
-                <Text>
-                    COMANDOS ALEATORIOS
+            <View style={styles.movimento}>
+                <Text style={styles.fonte}>
+                    C O M A N D O S A L E A T O R I O S
                 </Text>
             </View>
-            <View>
-                <Text>00:00.00</Text>
+            <View style={styles.cronometro}>
+                <Text style={styles.fonte}>00:00.00</Text>
             </View>
+            <Button title="Start" type="verde" onPress={handleSignIn} />
         </View>
         
 
