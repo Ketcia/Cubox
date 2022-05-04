@@ -4,7 +4,7 @@ import { StackNavigationProp } from "@react-navigation/stack";
 export type LoginStackParamList = {
   Login: undefined;
   Cadastrar: undefined;
-  Conometro:undefined;
+  Drawer:undefined;
 }
 type LoginScreenNavigationProp = StackNavigationProp<LoginStackParamList, 'Login'>
 export type LoginTypes = {

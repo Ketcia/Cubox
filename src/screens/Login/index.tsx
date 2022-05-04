@@ -3,8 +3,7 @@ import {
   View,
   Text,
   KeyboardAvoidingView,
-  TextInput,
-  ImageBackground,
+  TextInput
 } from "react-native";
 import { MaterialIcons, Entypo } from "@expo/vector-icons";
 import Button from "../../components/Button";
@@ -14,7 +13,7 @@ import { LoginTypes } from "../../types/Screen.types";
 
 export default function Login({ navigation }: LoginTypes) {
   async function handleSignIn() {
-    navigation.navigate("Cronometro");
+    navigation.navigate("Drawer");
   }
   function handleCadastrar() {
     navigation.navigate("Cadastrar");

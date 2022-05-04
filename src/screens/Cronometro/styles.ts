@@ -11,13 +11,16 @@ const styles = StyleSheet.create({
   fundo:{
     flex:1,
     backgroundColor: colors.cinzaEscuro,
-    width: "90%"
-  },
-  header:{
-    width: "100%",
-    backgroundColor: colors.cinza,
-    padding: 5
+    width: "90%",
+    alignItems: "center",
+    justifyContent: "center",
+    
 
+  },
+  view:{
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
   }
 })
 
