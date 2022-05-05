@@ -12,21 +12,23 @@ const styles = StyleSheet.create({
     flex:1,
     backgroundColor: colors.cinzaEscuro,
     width: "90%",
-    
+    alignItems: "center",
+    justifyContent: "center",
 
   },
   view:{
     width: "100%",
-    height:"20%",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "center"
+    
   },
   title: {
-    fontSize: 30,
+    fontSize: 15,
     fontWeight: "bold",
-    textAlign: "center",
+    textAlign: "justify",
     color: "#fff",
-    width:"80%"
+    width:"90%",
+    marginBottom:20
   }
 
 })
