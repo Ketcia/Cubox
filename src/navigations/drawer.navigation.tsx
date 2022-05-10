@@ -1,6 +1,6 @@
 import React from "react";
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import {CronometroScreen, TutoriaisScreen} from "../screens"
+import {CronometroScreen, TutoriaisScreen, RecordesScreen} from "../screens"
 import colors from "../styles/colors";
 
 const Drawer = createDrawerNavigator();
@@ -18,6 +18,7 @@ const Drawer = createDrawerNavigator();
     >
       <Drawer.Screen name="Tutoriais" component={TutoriaisScreen}/>
       <Drawer.Screen name="Cronometro" component={CronometroScreen}/>
+      <Drawer.Screen name="Recordes" component={RecordesScreen}/>
       
     </Drawer.Navigator>
   );
