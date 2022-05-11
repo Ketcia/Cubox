@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native";
-import { color } from "react-native-reanimated";
 import colors from "../../styles/colors";
 
 const styles = StyleSheet.create({
@@ -20,14 +19,12 @@ const styles = StyleSheet.create({
   view:{
     width: "100%",
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor:colors.azul,
     
     
   },
   list: {
         borderRadius:5,
-        width:"90%",
+        width:"100%",
   }
 })
 

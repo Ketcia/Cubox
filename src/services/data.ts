@@ -1,22 +1,22 @@
 export default [
     {
       id: 1,
-     time:1111
+     time:12.12
     },
     {
       id: 2,
-     time:2222
+     time:22.22
     },
     {
       id: 3,
-     time:3333
+     time:33.33
     },
     {
       id: 4,
-      time:4444
+      time:44.44
     },
     {
       id: 5,
-      time:55555
+      time:555.555
     }
 ]

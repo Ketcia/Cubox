@@ -13,7 +13,7 @@ import data from "../../services/data";
 
 
 export default function Recordes({ navigation }: LoginTypes) {
-  const renderItem = ({ item }: any) => <Times data={item} type="verde"/>;
+  const renderItem = ({ item }: any) => <Times data={item} type="branco"/>;
   return (
         <SafeAreaView style={styles.container}>
         <View style={styles.fundo}>

@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
         backgroundColor: colors.branco,
         borderRadius:5,
         margin:10,
+        padding:15
     },
     verde:{
         backgroundColor: colors.verde,
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
         margin:10
     },
     text: {
-        color: colors.white,
+        color: colors.brancoEscuro,
         fontWeight: 'bold',
         textAlign: 'center',
         padding: 10,
