@@ -1,8 +1,9 @@
 export interface TimesProps {
     data:{
         id:number,
-        time:number,
-        type: 'branco' |'vermelho'|'verde'
+        time:number
+        
     }
+    type: 'branco' |'vermelho'|'verde'
      
   }

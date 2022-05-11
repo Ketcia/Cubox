@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
   list: {
         borderRadius:5,
         width:"90%",
-        backgroundColor:colors.amarelo
   }
 })
 

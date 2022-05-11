@@ -3,15 +3,15 @@ import { View, Text } from "react-native";
 import { TimesProps } from "../../interfaces/Times.interface";
 import styles from "./styles"
 
-export default function Times({data}: TimesProps) {
+export default function Times({data, type}: TimesProps) {
   return (
-   <View style={data.type=="branco" 
+   <View style={type=="branco" 
    ? styles.branco
-   : data.type == 'verde' 
+   : type == "verde" 
    ? styles.verde
-   : data.type == 'vermelho' 
+   : type == "vermelho" 
    ? styles.vermelho
-   : data.type == 'amarelo' 
+   : type == "amarelo"
   }>
       <Text>{data.time}</Text>
    </View>
