@@ -8,7 +8,7 @@ import {
 import styles from "./styles";
 import { LoginTypes } from "../../types/Screen.types";
 import Times from "../../components/Tempos"
-import data from "../../services/data_antigo";
+
 
 
 
